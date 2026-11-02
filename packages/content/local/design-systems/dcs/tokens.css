@@ -1,0 +1,92 @@
+/* ─────────────────────────────────────────────────────────────────────────
+ * design-systems/dcs/tokens.css
+ *
+ * Digital Card Services & Solutions B.V. (dcs.nl) — house style for DCS's
+ * own web pages, pitch prototypes, decks and documents. Light mode; the
+ * Deep Navy "chrome" mode is described in DESIGN.md.
+ * ─────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Surface */
+  --bg: #ffffff;
+  --surface: #f5f7fb;
+  --surface-warm: #eef3fe; /* Blue Tint — selected rows, info panels, canvas behind tools */
+
+  /* Foreground */
+  --fg: #1b2738; /* Ink */
+  --fg-2: #16263d; /* Navy 2 */
+  --muted: #6b7689; /* Slate — 4.6:1 on white; use on --bg, not on --surface, below 18px */
+  --meta: #6b7689;
+
+  /* Border */
+  --border: #e6e9f0; /* Line */
+  --border-soft: #eef0f5;
+
+  /* Accent — DCS Blue, the only accent */
+  --accent: #2f5fe0;
+  --accent-on: #ffffff; /* 5.5:1 */
+  --accent-hover: #2750c4; /* Blue 600 */
+  --accent-active: color-mix(in oklab, #2750c4, black 10%);
+
+  /* Brand */
+  --navy: #0c1a2e; /* Deep Navy — hero, header on dark pages, footer, app chrome */
+  --navy-2: #16263d;
+  --accent-light: #7d9cf0; /* Blue 300 — links and accent text on navy (6.6:1) */
+  --on-navy-muted: #a9b6cf; /* secondary text on navy (8.5:1) */
+
+  /* Semantic — AA on white */
+  --success: #15803d;
+  --warn: #b45309;
+  --danger: #b91c1c;
+
+  /* Typography — fonts */
+  --font-display: "Space Grotesk", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Hanken Grotesk", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* Spacing — 4px base */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* Typography — type scale */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 44px;
+  --text-4xl: 60px;
+
+  /* Typography — leading & tracking */
+  --leading-body: 1.6;
+  --leading-tight: 1.1;
+  --tracking-display: -0.02em;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(12, 26, 46, 0.06);
+  --shadow-md: 0 6px 24px -8px rgba(12, 26, 46, 0.18);
+
+  /* Section rhythm */
+  --section-y-desktop: 96px;
+  --section-y-tablet: 72px;
+  --section-y-phone: 48px;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-gutter-desktop: 32px;
+  --container-gutter-tablet: 24px;
+  --container-gutter-phone: 16px;
+}

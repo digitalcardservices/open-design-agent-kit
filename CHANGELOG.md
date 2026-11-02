@@ -4,6 +4,7 @@ One version covers the VS Code extension and the npm packages (`content`, `mcp-s
 
 ## [Unreleased]
 
+- **DCS design system.** `dcs` is the house style of Digital Card Services & Solutions (dcs.nl): Deep Navy chrome, white canvas, one DCS Blue accent, Space Grotesk headings over Hanken Grotesk. It's a new local package in `packages/content/local/design-systems/dcs/`, with a Claude Design export in `claude-design-systems/dcs`.
 - **Hosted gateway for the directory listings.** A new `packages/mcp-gateway`, shipped as the `ghcr.io/feimacode/open-design-gateway` image, serves Open Design for the Claude connector directory and the ChatGPT plugin directory. Every other install keeps the local server. [Hosted server](https://github.com/feimacode/open-design-agent-kit/blob/main/docs/reference/remote-server.md)
   - Projects with handles (`start_open_design_project`) instead of one folder per connection, kept 7 days without an account.
   - Optional sign-in through feima-idp, with a project library (`list_open_design_projects`, `claim_open_design_project`).

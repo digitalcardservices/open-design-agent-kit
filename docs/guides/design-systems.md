@@ -2,7 +2,7 @@
 
 A **design system** is a brand's visual language written down: color palette, typography, spacing and grid, layout, components, motion, voice, and what to avoid. When one is active, every design the agent generates follows it, so a landing page, a deck and a dashboard made on different days still look like they belong to the same brand.
 
-Open Design bundles 198 design systems, most inspired by real products (Apple, Stripe, Linear, Notion, Vercel, Airbnb, Claude…), plus neutral starters. You can also invent your own or import one your organization already has.
+Open Design bundles 199 design systems, most inspired by real products (Apple, Stripe, Linear, Notion, Vercel, Airbnb, Claude…), plus neutral starters. You can also invent your own or import one your organization already has.
 
 ## The key idea: one active design system per workspace
 
@@ -51,7 +51,7 @@ Ask:
 
 The agent calls [`list_open_design_design_systems`](../reference/tools.md#list_open_design_design_systems), which filters by free text or by exact category. Each result's `active` flag shows the current one.
 
-The 198 bundled systems fall into these categories:
+The 199 bundled systems fall into these categories:
 
 | Category | Count | | Category | Count |
 |---|---|---|---|---|
@@ -61,13 +61,13 @@ The 198 bundled systems fall into these categories:
 | Modern & Minimal | 13 | | Design & Creative | 7 |
 | Bold & Expressive | 13 | | Automotive | 7 |
 | Media & Consumer | 12 | | Morphism & Effects | 6 |
-| Professional & Corporate | 11 | | Retro & Nostalgic | 5 |
+| Professional & Corporate | 12 | | Retro & Nostalgic | 5 |
 | Developer Tools | 11 | | Editorial & Print | 5 |
 | Creative & Artistic | 11 | | E-Commerce & Retail | 5 |
 | Layout & Structure | 4 | | Starter | 3 |
 | Social & Messaging | 1 | | Editorial (two small categories) | 2 |
 
-Some ids you might reach for: `apple`, `stripe`, `linear-app`, `notion`, `vercel`, `airbnb`, `starbucks`, `claude`, `xiaohongshu`, `wechat`, and `default` ("Neutral Modern", a safe starter).
+Some ids you might reach for: `apple`, `stripe`, `linear-app`, `notion`, `vercel`, `airbnb`, `starbucks`, `claude`, `xiaohongshu`, `wechat`, and `default` ("Neutral Modern", a safe starter). `dcs` is the house style of Digital Card Services & Solutions, for DCS's own pages, decks and documents.
 
 ## Not sure which one?
 

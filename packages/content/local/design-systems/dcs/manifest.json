@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "od-design-system-project/v1",
+  "id": "dcs",
+  "name": "DCS",
+  "category": "Professional & Corporate",
+  "description": "House style of Digital Card Services & Solutions (dcs.nl): Deep Navy chrome, white canvas, one DCS Blue accent, Space Grotesk headings over Hanken Grotesk.",
+  "source": {
+    "type": "official",
+    "origin": "Digital Card Services & Solutions B.V. brand kit (dcs.nl), authored by DCS",
+    "url": "https://dcs.nl"
+  },
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "craft": {
+    "applies": ["accessibility-baseline"],
+    "suggested": ["color", "typography", "ux-writing", "state-coverage"],
+    "exemptions": []
+  }
+}

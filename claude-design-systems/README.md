@@ -55,6 +55,7 @@ Motion tokens don't carry across, because Claude's format has no motion family. 
 | Creative | `claude-design-systems/creative` | Bundled OpenDesign package for Creative, derived from curated DESIGN.md, tokens.css, and components.html fixtures. |
 | Cursor | `claude-design-systems/cursor` | Bundled OpenDesign package for Cursor, derived from curated DESIGN.md, tokens.css, and components.html fixtures. |
 | Dashboard | `claude-design-systems/dashboard` | Bundled OpenDesign package for Dashboard, derived from curated DESIGN.md, tokens.css, and components.html fixtures. |
+| DCS | `claude-design-systems/dcs` | House style of Digital Card Services & Solutions (dcs.nl): Deep Navy chrome, white canvas, one DCS Blue accent, Space Grotesk headings over Hanken Grotesk. |
 | Neutral Modern | `claude-design-systems/default` | Bundled OpenDesign package for Neutral Modern, derived from curated DESIGN.md, tokens.css, and components.html fixtures. |
 | Discord | `claude-design-systems/discord` | Bundled OpenDesign package for Discord, derived from curated DESIGN.md, tokens.css, and components.html fixtures. |
 | Dithered | `claude-design-systems/dithered` | Bundled OpenDesign package for Dithered, derived from curated DESIGN.md, tokens.css, and components.html fixtures. |

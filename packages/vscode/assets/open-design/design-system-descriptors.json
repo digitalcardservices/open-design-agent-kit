@@ -50,6 +50,7 @@
     "creative": {"kind": "genre", "moods": ["playful", "artistic", "bold"], "industries": ["creative", "brand"], "surfaces": ["web"]},
     "cursor": {"kind": "brand", "moods": ["technical", "futuristic"], "industries": ["developer", "ai"], "surfaces": ["web"]},
     "dashboard": {"kind": "genre", "moods": ["technical"], "industries": ["dashboard", "saas"], "surfaces": ["dashboard", "web"]},
+    "dcs": {"kind": "brand", "moods": ["technical", "calm", "corporate"], "industries": ["saas", "developer", "enterprise", "brand"], "surfaces": ["web", "mobile", "slides", "document", "dashboard"]},
     "default": {"kind": "genre", "moods": ["minimal", "calm"], "industries": ["saas", "dashboard", "enterprise"], "surfaces": ["web", "dashboard"]},
     "discord": {"kind": "brand", "moods": ["playful", "bold"], "industries": ["social", "gaming"], "surfaces": ["web"]},
     "dithered": {"kind": "genre", "moods": ["retro", "artistic"], "industries": ["creative", "gaming"], "surfaces": ["web"]},
